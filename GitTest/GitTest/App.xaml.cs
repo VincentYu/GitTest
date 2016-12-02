@@ -47,6 +47,13 @@ namespace GitTest
             {
                 this.DebugSettings.EnableFrameRateCounter = true;
             }
+#else
+            if (true) 
+            {
+                // Test Code
+                //
+                //
+            }
 #endif
 
             if (false) {
